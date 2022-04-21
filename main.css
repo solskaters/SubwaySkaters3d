@@ -134,6 +134,70 @@ font-size: 22px;
     font-size: 15px;
     color:#fff;
 }
+.page-footer {
+	position: relative;
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 1px;
+	background-repeat: repeat;
+	background-size: 100% 100%;
+    background-color: #fff;
+    margin-top: 150px;
+    
+    box-shadow: 6px 6px 16px 16px #A4A5B1;
+
+  }
+  
+  .page-footer p a {
+	color: #35bb78;
+	transition: color 0.2s ease;
+  }
+  
+  .page-footer p a:hover {
+	color: #40d48a;
+  }
+  
+  .page-footer h3,
+  .page-footer h4,
+  .page-footer h5 {
+	color: #000000;
+	margin-bottom: 24px;
+	margin-left: 20px;
+  }
+  
+  .page-footer p {
+	color: #898798;
+  }
+  
+  .footer-menu {
+	position: relative;
+	padding-left: 0;
+	list-style: none;
+	margin-left: 30px;
+  }
+  
+  .footer-menu li {
+	margin-bottom: 12px;
+  }
+  
+  .footer-link {
+	display: inline-block;
+	padding: 6px 0;
+  }
+  
+  .footer-menu a,
+  .footer-link {
+	color: #000000;
+  }
+  
+  .footer-menu a:hover,
+  .footer-link:hover {
+	color: #000000;
+	text-decoration: none;
+  }
+  .footerheadings{
+	  font-family: heading;
+  }
   
   
 
