@@ -1,0 +1,485 @@
+@font-face {
+	font-family: heading;
+	src: url(assets/font/theboldfont.ttf);
+  }
+  @font-face {
+	font-family: futura;
+	src: url(assets/font/futuramediumbt.ttf);
+  }
+
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+  width: 100% !important;
+	left: 0;
+	z-index: 20;
+	
+	background-image: url(assets/images/nav.png);
+}
+.nav-link:hover{
+font-size: 22px;
+}
+.nav-item{
+	padding: 15px !important;
+	font-size: 18px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#banner{
+    margin-top: 90px;
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('banner.png');
+    height:500px;
+    background-size:100% 500px;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+#bannertext{
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+#aboutbg{
+	background:#fff;
+	width:1000px;
+	height: 400px;
+	padding:40px;
+	margin-top: 60px;
+    box-shadow: 0px 0px 6px 6px #A4A5B1;
+
+}
+.gif{
+	height: 320px;
+	width: 380px;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	text-align: center;
+	width: 900px;
+  }
+  
+  .flex-item-left {
+	flex: 50%;
+  }
+  
+  .flex-item-right {
+	flex: 50%;
+  }
+  #mypara{
+	font-family: futura;
+	font-size: 20px;
+	margin-top: 20px;
+	color: black;
+}
+#carousel{
+    margin-top: 180px;
+}
+.roadmap{
+    background-color: #F0F0F0	;
+    margin-top: 130px;
+    padding: 30px;
+}
+.flex-container-roadmap {
+    display: none
+  }
+  .accordion {
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px 0px black;
+
+
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #000000;
+    color:#fff;
+    
+    box-shadow: 0px 0px 0px 0px black;
+
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+  }
+  .faq{
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 40px;
+  }
+  #title{
+    font-size: 45px;
+    margin-top: 300px;
+    color:white;
+}
+#title3{
+    font-size: 15px;
+    color:#fff;
+}
+  
+  
+
+  @media screen and (max-width: 600px) {
+    .accordion {
+        background-color: #fff;
+        color: #000000;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 6px 0px 0px black;
+    
+    
+      }
+      
+      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+      
+      
+      /* Style the accordion panel. Note: hidden by default */
+      .panel {
+        padding: 0 18px;
+        background-color: #fff;
+        display: none;
+        overflow: hidden;
+      }
+      .faq{
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 40px;
+      }
+      
+      
+    
+    html,body{
+        margin: 0 auto;
+        height: 900px;
+        overflow-x: hidden;
+     
+    }
+    .roadmap{
+        display: none;
+    }
+    .flex-container-roadmap {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        text-align: center;
+        background-color: #F0F0F0;
+        padding: 24px;
+        margin-top: 100px;
+      }
+      
+    #aboutbg{
+		background:#fff;
+		width:270px;
+		height: 400px;
+		padding:5px;
+		margin-top: 10px;
+		margin-left: 7px;
+		margin-right: 10px;
+        
+    box-shadow: 0px 0px 6px 6px #A4A5B1;
+
+	}
+	.gif{
+		height: 150px;
+		width: 190px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+    .flex-container {
+		display: flex;
+	  flex-direction: column;
+	  width: 550px !important;
+
+	}
+    #mypara{
+		font-family: futura;
+		font-size: 9px;
+		margin-top: 10px;
+		color: black;
+
+	}
+	  
+	  .flex-item-left {
+		flex: 50%;
+		height: 220px;
+		width: 260px;
+	  }
+	  
+	  .flex-item-right {
+		flex: 50%;
+		width: 250px;
+		height: 200px;
+		
+	  }
+      #banner{
+        margin-top: 70px;
+        background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('banner.png');
+        height:400px;
+        background-size: 100% 350px;
+        background-repeat: no-repeat;
+        width:100%;
+    }
+    
+    #bannertext{
+        text-align: center;
+        font-size: 10px;
+        margin-top: 60px;
+    }
+    #title{
+        font-size: 15px;
+        margin-top: 180px;
+    }
+    #title3{
+        font-size: 15px;
+    }
+   .navbar-wrapper{
+       width: 100px !important;
+       margin-left: 5px !important;
+       background-color: blue !important;
+   } 
+   
+    
+  
+  }
+    /* Responsive layout - makes a one column-layout instead of two-column layout */
+    *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+.roadmap{
+    background-color: #F0F0F0	;
+    margin-top: 90px;
+    padding: 30px;
+}
+#carousel{
+    margin-top: 80px;
+}
+.roadmaptext{
+    text-align: center;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background: #A4A5B1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 10%;
+}
+
+.container.left {
+  right:50%;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #A4A5B1;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #A4A5B1;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #A4A5B1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.left .date {
+  right: -75px;
+}
+
+.container.right .date {
+  left: -75px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 130px;
+  height: 120px;
+  padding: 30px 0;
+  top: calc(25% - 20px);
+  background: #F1F3F4;
+  border: 2px solid #A4A5B1;
+  border-radius: 20px;
+  box-shadow: 0px 6px 0px 0px black;
+  text-align: center;
+  font-size: 62px;
+  color: black;
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  position: relative;
+ 
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 50px;
+ width:400px;
+ left:15%;
+ top:10%;
+}
+
+.container.left .content {
+    padding: 30px 30px 30px 90px;
+    width:400px;
+    right:0px;
+    left:47%;
+  }
+
+  
+.container .content h1 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: black;
+ 
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #A4A5B1 transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}
+
+
