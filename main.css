@@ -1,12 +1,60 @@
 @font-face {
 	font-family: heading;
-	src: url(assets/font/theboldfont.ttf);
+	src: url(Over\ There.ttf);
   }
   @font-face {
 	font-family: futura;
 	src: url(assets/font/futuramediumbt.ttf);
   }
+  .roadmaptext{
+    font-family: heading;
+    text-align: center;
+    font-size: 30px;
 
+  }
+
+
+#Own{
+padding: 16px;
+margin-right: 50px;
+margin-top: 20px;
+background-color: #e6e6ee;
+margin-left: 30px;
+box-shadow: 5px 10px;
+
+}
+.welcome{
+  font-family: heading;
+  font-size: 13px;
+}
+
+#Own h4{
+  font-family: heading;
+  font-size: 15px;
+}
+#explore{
+  padding: 16px;
+  margin-top: 20px;
+  margin-right: 30px;
+background-color: #e6e6ee;
+box-shadow: 5px 10px;
+
+  
+}
+#explore h4{
+  font-family: heading;
+  font-size: 15px;
+}
+
+  #logotitle{
+color: #000000;
+font-family: heading;
+font-size: 15px;
+  }
+  #navbartext{
+    font-family: heading;
+    font-size: 10px;
+  }
 .navbar-wrapper {
 	position: absolute;
 	top: 0;
@@ -27,11 +75,11 @@ font-size: 22px;
 }
 #banner{
     margin-top: 90px;
-    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('banner.png');
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('Website Banner.png');
     height:500px;
     background-size:100% 500px;
     background-repeat: no-repeat;
-    width:100%;
+    width:100%; 
 }
 
 #bannertext{
@@ -48,9 +96,23 @@ font-size: 22px;
 	height: 400px;
 	padding:40px;
 	margin-top: 60px;
-    box-shadow: 0px 0px 6px 6px #A4A5B1;
+  border: 2px solid #000000;
+  border-radius: 20px !important;
+  box-shadow: 0px 6px 0px 0px black;
 
 }
+#aboutbgsubway{
+	background:#fff;
+	width:1000px;
+	height: 400px;
+	padding:40px;
+	margin-top: 60px;
+  border: 2px solid #000000;
+  border-radius: 20px !important;
+  box-shadow: 0px 6px 0px 0px black;
+
+}
+
 .gif{
 	height: 320px;
 	width: 380px;
@@ -61,6 +123,7 @@ font-size: 22px;
 	font-size: 16px;
 	text-align: center;
 	width: 900px;
+
   }
   
   .flex-item-left {
@@ -127,8 +190,8 @@ font-size: 22px;
   }
   #title{
     font-size: 45px;
-    margin-top: 300px;
-    color:white;
+    margin-top: 100px;
+    color:black;
 }
 #title3{
     font-size: 15px;
@@ -197,11 +260,119 @@ font-size: 22px;
   }
   .footerheadings{
 	  font-family: heading;
+    font-size: 10px;
   }
   
+  #myrow{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
   
+  }
+  #titlesubwaycity{
+    font-size: 20px;
+    font-family: heading;
+  }
+  #subwaypara{
+    font-size: 18px;
+  }
+  #phasetext{
+    font-family: heading;
+    font-size: 17px;
+  }
+  .nftcalendarimg{
+    width: 100px;
+    height: 100px;
+  }
 
   @media screen and (max-width: 600px) {
+    .nftcalendarimg{
+      width: 100px;
+      height: 100px;
+    }
+  
+    .phasepoints{
+      align-items: left;
+    }
+    #phasetext{
+      font-family: heading;
+    }
+  
+    .roadmaptext{
+      font-family: heading;
+      text-align: center;
+      font-size: 15px;
+  
+    }
+    .welcome{
+      font-family: heading;
+      font-size: 6px;
+
+    }
+    
+  #subwaypara{
+    font-size: 12px;
+  }
+    #Own{
+      padding: 16px;
+      margin-right: 10px;
+      margin-top: 20px;
+      background-color: #e6e6ee;
+      margin-left: 10px;
+      box-shadow: 5px 10px;
+      
+      }
+      #Own h4{
+        font-family: heading;
+        font-size: 12px;
+      }
+      #Own h6{
+        font-size: 10px;
+      }
+      #explore{
+        padding: 16px;
+        margin-top: 20px;
+        margin-right: 10px;
+      background-color: #e6e6ee;
+      box-shadow: 5px 10px;
+      margin-left: 10px;
+
+      
+        
+      }
+      #explore h4{
+        font-family: heading;
+        font-size: 12px;
+      }
+      #explore h6{
+        font-size: 10px;
+      }
+
+      
+    #logotitle{
+      color: #000000;
+      font-family: heading;
+      font-size: 10px;
+        }
+        #navbartext{
+          font-family: heading;
+          font-size: 7px;
+        }
+    #titlesubwaycity{
+      font-size: 8px;
+      font-family: heading;
+      padding:10px;
+
+    }
+    #subwaypara{
+      font-size: 13px;
+    }
+    #myrow{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
     .accordion {
         background-color: #fff;
         color: #000000;
@@ -250,7 +421,6 @@ font-size: 22px;
         display: flex;
         flex-direction: column;
         font-size: 14px;
-        text-align: center;
         background-color: #F0F0F0;
         padding: 24px;
         margin-top: 100px;
@@ -259,13 +429,27 @@ font-size: 22px;
     #aboutbg{
 		background:#fff;
 		width:270px;
-		height: 400px;
+		height: 450px;
+		padding:4px;
+		margin-top: 10px;
+		margin-left: 7px;
+		margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 6px 0px 0px black;
+
+	}
+  #aboutbgsubway{
+		background:#fff;
+		width:270px;
+		height: 420px;
 		padding:5px;
 		margin-top: 10px;
 		margin-left: 7px;
 		margin-right: 10px;
-        
-    box-shadow: 0px 0px 6px 6px #A4A5B1;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 6px 0px 0px black;
 
 	}
 	.gif{
@@ -302,7 +486,7 @@ font-size: 22px;
 	  }
       #banner{
         margin-top: 70px;
-        background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('banner.png');
+        background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),  url('Website Banner.png');
         height:400px;
         background-size: 100% 350px;
         background-repeat: no-repeat;
@@ -315,8 +499,8 @@ font-size: 22px;
         margin-top: 60px;
     }
     #title{
-        font-size: 15px;
-        margin-top: 180px;
+        font-size: 30px;
+        margin-top: 10px;
     }
     #title3{
         font-size: 15px;
@@ -349,9 +533,6 @@ body {
 }
 #carousel{
     margin-top: 80px;
-}
-.roadmaptext{
-    text-align: center;
 }
 .timeline {
   position: relative;
@@ -447,7 +628,7 @@ body {
   width: 130px;
   height: 120px;
   padding: 30px 0;
-  top: calc(25% - 20px);
+  top: calc(35% - 10px);
   background: #F1F3F4;
   border: 2px solid #A4A5B1;
   border-radius: 20px;
@@ -468,19 +649,18 @@ body {
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  position: relative;
- 
+  position: relative; 
 }
 
 .container.right .content {
-  padding: 30px 30px 30px 50px;
+  padding: 10px 10px 10px 10px;
  width:400px;
  left:15%;
  top:10%;
 }
 
 .container.left .content {
-    padding: 30px 30px 30px 90px;
+    padding: 10px 10px 10px 10px;
     width:400px;
     right:0px;
     left:47%;
