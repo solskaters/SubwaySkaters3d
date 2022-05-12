@@ -3,8 +3,8 @@
 	src: url(Over\ There.ttf);
   }
   @font-face {
-	font-family: futura;
-	src: url(assets/font/futuramediumbt.ttf);
+	font-family: paragraph;
+	src: url(SemplicitaPro.otf);
   }
   .roadmaptext{
     font-family: heading;
@@ -47,9 +47,8 @@ box-shadow: 5px 10px;
 }
 
   #logotitle{
-color: #000000;
-font-family: heading;
-font-size: 15px;
+    height: 60px;
+    width: 220px;
   }
   #navbartext{
     font-family: heading;
@@ -115,7 +114,7 @@ font-size: 22px;
 
 .gif{
 	height: 320px;
-	width: 380px;
+	width: 420px;
 }
 .flex-container {
 	display: flex;
@@ -276,6 +275,11 @@ font-size: 22px;
   }
   #subwaypara{
     font-size: 18px;
+    font-family: paragraph;
+  }
+  #subwayparaown{
+    font-size: 15px;
+    font-family: paragraph;
   }
   #phasetext{
     font-family: heading;
@@ -313,6 +317,13 @@ font-size: 22px;
     
   #subwaypara{
     font-size: 12px;
+    font-family: paragraph;
+
+  }
+  #subwayparaown{
+    font-size: 10px;
+    font-family: paragraph;
+    
   }
     #Own{
       padding: 16px;
@@ -351,9 +362,8 @@ font-size: 22px;
 
       
     #logotitle{
-      color: #000000;
-      font-family: heading;
-      font-size: 10px;
+      height: 50px;
+      width: 200px;
         }
         #navbartext{
           font-family: heading;
@@ -454,7 +464,7 @@ font-size: 22px;
 	}
 	.gif{
 		height: 150px;
-		width: 190px;
+		width: 210px;
 		margin-top: 20px;
 		margin-left: 0px;
 	}
@@ -627,8 +637,8 @@ body {
   display: inline-block;
   width: 130px;
   height: 120px;
-  padding: 30px 0;
-  top: calc(35% - 10px);
+  padding: 5px 0;
+  top: calc(25% - 5px);
   background: #F1F3F4;
   border: 2px solid #A4A5B1;
   border-radius: 20px;
@@ -680,8 +690,22 @@ body {
   line-height: 22px;
   color: #000000;
 }
-
+#faqtext{
+  font-family: heading;
+  font-size: 30px;
+}
+#points{
+  font-family: paragraph;
+}
 @media (max-width: 767.98px) {
+  
+#points{
+  font-family: paragraph;
+}
+  #faqtext{
+    font-family: heading;
+    font-size: 15px;
+  }
   .timeline::after {
     left: 90px;
   }
